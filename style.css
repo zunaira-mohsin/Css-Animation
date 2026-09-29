@@ -1,0 +1,80 @@
+body{
+    animation-name: bg;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes bg{
+    0%{
+       background-color: cadetblue;
+background-size: cover;   
+ }
+ 25%{
+  background-color: chocolate;
+ background-size: cover; 
+   
+}
+50%{
+    background-color: rgb(213, 101, 138);
+    background-size: cover;
+   
+}
+75%{
+background-color: mediumaquamarine;
+  background-size: cover;
+}
+100%{
+   background-color: lightsalmon;
+}
+} 
+
+
+div {
+    background-image: url(cat6.jpg);
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid black;
+    box-shadow: 10px 10px 15px rgb(163, 163, 163);
+      position: relative;
+    animation-name: cat;
+    animation-duration: 4s;
+    animation-iteration-count: 6;
+    animation-direction: reverse;
+    animation-timing-function: ease-in-out;
+      background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@keyframes cat{
+    0%{
+       background-image: url(cat1.jpg);
+       border-radius: 50px;
+        top: 0%;
+        left: 0px;
+    }
+    25%{
+         background-image: url(cat2.jpg);
+         border-radius: 80px;
+         left: 700px;
+        top: 0;
+    }
+    50%{
+         background-image: url(cat3.jpg);
+         border-radius: 100px;
+       left: 800px;
+        top: 250px;
+    }
+    75%{
+         background-image: url(cat4.png);
+         border-radius: 120px;
+         left: 50px;
+        top: 250px;
+    }
+    100%{
+         background-image: url(cat5.png);
+         border-radius: 150px;
+         left: 0;
+        top: 0;
+    }
+} 
